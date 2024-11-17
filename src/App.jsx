@@ -1,14 +1,13 @@
-import Button from './components/button/Button';
 import { GlobalStyles } from './styles/GlobalStyles';
+import Counter from './components/counter/Counter';
 
 const App = () => {
 	return (
-		<div>
+		<>
 			<GlobalStyles />
 			<h1>Curso de React</h1>
-			<Button color='steelblue'>Click Me!</Button>
-			<Button color='#f0f'>Click Me!</Button>
-		</div>
+			<Counter />
+		</>
 	);
 };
 

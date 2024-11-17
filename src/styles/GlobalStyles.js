@@ -12,16 +12,14 @@ export const GlobalStyles = createGlobalStyle`
         display: block;
     }
 
-    ul {
-        list-style: none;
-        padding-left: 0;
-        margin-top: 0;
-        margin-bottom: 0;
-    }
-
     a {
         text-decoration: none;
         color: inherit;
+    }
+
+    body{
+        font-family: sans-serif;
+        margin:1rem
     }
 
 `;
